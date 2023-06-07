@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dosis:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dosis:wght@200&display=swap'); */
+
+:root{
+  --primary-color: #29B7FF;
+  --secondary-color: #192A3D;
+  --body-bg-color: #101212;
+  /* --secondary-color: #149253; */
+  --ternary-color: #172D3B;
+  /* --text-secondary-color: #545963; */
+  --text-secondary-color: #29B7FF;
+  --blue-color:#60a5fa;
+  --yellow-color: #fed02f;
+  --bg-grey: #f8f8f8;
+  --danger-color: #BF4342; 
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  /* font-family: 'Bungee', cursive; */
+
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}

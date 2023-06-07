@@ -1,0 +1,27 @@
+.scroll-btn{
+    position: fixed;
+    bottom: 1.7rem;
+    right: 1.7rem;
+    background-color: white;
+    /* background-color: var(--secondary-color); */
+    border: 1px solid red;
+    /* border: none; */
+    max-height: 3rem;
+    max-width: 3rem;
+    border-radius: 50%;
+    /* border-color: black; */
+    padding: 0.5rem;
+}
+.scroll-btn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-btn div svg{
+    font-size: 2rem;
+    color: #29B7FF;
+    /* color: white; */
+}
+.scroll-btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+
+.products-filters-container{
+    margin:10px;
+    grid-area: filters;
+    border-radius: 25px 0px;
+    box-shadow: 5px 10px 8px #888888;
+    /* box-shadow: 1px ; */
+
+  
+}
+
+.products-outer-container{
+    grid-area: products;
+    padding: 2rem 1rem 1rem 1rem;
+    height: 90vh;
+    overflow-y: scroll;
+  
+}
+
+.products-listing-outer-container{
+    position: relative;
+    padding: 0 0 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "products";
+    background: #F7F7F7;
+}
+
+.loader-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-title-bar{
+    padding: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.filter-icon{
+    padding: 0.1rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid var(--secondary-color);
+  
+}
+
+.filter-icon svg{
+    font-size: 1.8rem;
+    color: var(--secondary-color)
+}
+
+
+.products-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+    /* gap: 0.5rem; */
+}
+
+.no-products-msg{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.products-listing-outer-container ::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+.products-listing-outer-container ::-webkit-scrollbar-track {
+   
+    border-radius: 10px;
+    margin-block: 0.25em;
+    background: white;
+}
+  
+.products-listing-outer-container ::-webkit-scrollbar-thumb {
+    background: #FF3B60;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .products-listing-outer-container{
+        position: relative;
+        grid-template-columns: 20% 1fr;
+        grid-template-areas: 
+            "filters products";
+        gap: 1rem;
+    }
+    .filter-icon{
+        display: none;
+    }
+    .loader-container{
+        position: absolute;
+        left: 40%;
+        top: 15%;
+    }
+}
+@media (min-width: 1024px) {
+    .products-listing-outer-container{
+        position: relative;
+        grid-template-columns: 20% 1fr;
+        grid-template-areas: 
+            "filters products";
+        gap: 1rem;
+    }
+  
+    .loader-container{
+        left: 45%;
+        top: 18%;
+    }
+}
