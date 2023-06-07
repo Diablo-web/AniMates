@@ -30,10 +30,10 @@ $ npm run start
  - Address management
  - Checkout page
  - Authentication:
-   - Item Zed
+
     - User Signup
     - User Login
- - Logout page
+    - Logout page
  - Fully Responsive
  - Error Page
 
