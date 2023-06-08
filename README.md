@@ -4,7 +4,7 @@
 # How to install and run locally ?
 Clone the project
 ```
-$ git clone https://github.com/Diablo-web/AniMates.git
+$ git clone https://github.com/Diablo-web/animates.git
 ```
 Go to the project directory
 ```
