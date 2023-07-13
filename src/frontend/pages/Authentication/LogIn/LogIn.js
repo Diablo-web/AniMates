@@ -14,8 +14,6 @@ function LogIn() {
     hidePassword: true,
   });
 
-  document.title = "Login";
-
   const guestUserDetails = {
     email: "sumedhk12@gmail.com",
     password: "password",
